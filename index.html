@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prtfolio Web Page</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box icon link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header & nav bar section -->
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="index.html">
+            <img
+              src="images/jamie.jpg"
+              height="200"
+              width="200"
+              alt="profile logo"
+            />
+          </a>
+          <h2>Izuchukwu Ofoma James</h2>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x-circle"></i>
+        </label>
+
+        <ul>
+          <li><a href="#index.html">Home</a></li>
+          <li><a href="#background">Educational Background</a></li>
+          <li><a href="#Interests">Interests</a></li>
+          <li><a href="#languages">Programming Languages</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2 class="section_title">About Me</h2>
+            <p>
+              Hi! I'm Izuchukwu James Ofoma, a passionate software developer
+              with great passion for software innovation and solutions that will
+              ease the rigorous processes of business and workflow sysytems.
+            </p>
+           
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="background" id="background">
+        <h2 class="section_title">Educational Background</h2>
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+          
+            <p>
+              I hold a Bachelor's degree in Industrial Chemistry. <br>I am currently a software Engineering student of PLP Academy
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="interests" id="interests">
+      <h2 class="section_title">Interests</h2>
+      <div class="section_container">
+        <div class="service_container">
+          <p>
+            <ul>
+              <li><b>Software Development:</b>Studying and implementing Software solutions to automate business processes and workflow systems</li>
+              <li><b>Web Development:</b>Exploring modern frameworks and best practices to give business organisations an ambient e-presence geared towards growth and development of business organisations</li>
+              <li><b>Training:</b>Equiping the world with Tech skills for relevance in the Tech world</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why_us" id="projects">
+      <h2 class="section_title">Projects</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <!-- <img src="images/delicious.png" alt="Delicious" /> -->
+            <div class="why_us_text">
+              <div class="useful_links">
+            <h5>Follow the link below to view my projects on github</h5>
+            <ul>
+              <li><a href="#">Project 1</a></li>
+              <li><a href="#">Project 2</a></li>
+              
+            </ul>
+          </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="why_us" id="languages">
+      <h2 class="section_title">Programming Languages</h2>
+      <div class="section_container">
+        <div class="why_container">
+          <div class="why_items">
+            <!-- <img src="images/delicious.png" alt="Delicious" /> -->
+            <div class="why_us_text">
+              <div class="useful_links">
+            <h5>I am proficient in the use of the following programming languages:</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript<li>
+              <li>Python</li>
+            </ul>
+          </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact Me</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="text"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Textarea</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Current Location</h3>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>General Enquiries</h3>
+                <p>izuchukwu.james03@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Call Me</h3>
+                <p>+234 8183695481</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="useful_links">
+            <h3>Useful Links</h3>
+            <ul>
+              <ul>
+          <li><a href="#index.html">Home</a></li>
+          <li><a href="#background">Educational Background</a></li>
+          <li><a href="#Interests">Interests</a></li>
+          <li><a href="#languages">Programming Languages</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i
+                ><span>Lagos, Nigeria</span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i><span>+234 8183695481</span>
+              </li>
+            </ul>
+          </div>
+          <div class="follow_us">
+            <h3>Follow Me</h3>
+            <i class="bx bxl-facebook-circle"><a href="#"></a></i>
+            <i class="bx bxl-twitter"><a href="#"></a></i>
+            <i class="bx bxl-instagram-alt"><a href="#"></a></i>
+            <i class="bx bxl-linkedin-alt"><a href="https://www.linkedin.com/in/ofomajames/"></a></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
